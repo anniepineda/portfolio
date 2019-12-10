@@ -114,11 +114,13 @@ input, select, textarea {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
+		font-family: 'Elsie Swash Caps', cursive;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
+		
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
@@ -2226,15 +2228,13 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 10em 0;
+				padding: 0;
 				background-size: cover;
 				background-position: center center;
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				/* background-image: url("../../images/somebeach.mp4"); */
-				/* background-position: cover; */
+				background-color: rgb(77, 75, 63);			
 				z-index: 1005;
 			}
 
@@ -2606,7 +2606,7 @@ input, select, textarea {
 				line-height: 1.25em;
 				border: 0;
 				padding: 0;
-				margin: 1em 0 0 0;
+				margin: 2em 0 0 0;
 			}
 
 				#footer .copyright li:first-child {
