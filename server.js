@@ -3,10 +3,9 @@
 const express = require('express');
 const app = express();
 
-app.use(express.static('/public'));
+app.use(express.static('./public'));
 
 app.get('/portfolio', function(request, response){
-  console.log('This is my portfolio');
   response.sendFile(__dirname + '/public/index.html');
 });
 
